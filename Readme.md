@@ -48,15 +48,15 @@ for p in make_prediction(test_img):
     print(np.argmax(p))
 ```
 
-# TO Do:
+# TO DO:
 
 while the project is still a bit limited. the end goal is to allow you effortlessly deploy your Tensorflow models to heroku and test it easily. to make that possible the plan is to:
 
 - [x] allow users deploy to heroku with the click of a button
 
-- [] allow users to provide url to a public bucket with their saved models that can be used
+- [ ] allow users to provide url to a public bucket with their saved models that can be used
 
-- [] introduce swagger UI to make it easy to test and interact with models
+- [ ] introduce swagger UI to make it easy to test and interact with models
 
 # Current state of the project
 
