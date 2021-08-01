@@ -1,4 +1,4 @@
-# Auto-Serve :rocket:
+# Cruise :rocket:
 
 Testing automatic deployment of ml models as rest apis to heroku using tensorflow serving.
 
