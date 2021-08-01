@@ -39,7 +39,7 @@ def make_prediction(instances, many=False):
     else:
         data = json.dumps({"signature_name": "serving_default", "instances": instances.tolist()})
     headers = {"content-type": "application/json"}
-    json_response = requests.post(full_url, data=data, headers=headers)
+    json_response = requests.post(url, data=data, headers=headers)
     predictions = json.loads(json_response.text)['predictions']
     return predictions
 
