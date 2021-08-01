@@ -4,13 +4,13 @@ ENV MODEL_BASE_PATH /default
 
 #RUN mkdir /models 
 #RUN cd /models
-#RUN apt-get update && apt-get install -y curl
-#RUN mkdir /default
-#RUN cd /default 
+RUN apt-get update && apt-get install -y curl
+RUN mkdir /default
+RUN cd /default 
 
-#COPY get-model.sh /usr/bin/get-model.sh
-#RUN chmod +x /usr/bin/get-model.sh
-#RUN sh /usr/bin/get-model.sh
+COPY get-model.sh /usr/bin/get-model.sh
+RUN chmod +x /usr/bin/get-model.sh
+RUN sh /usr/bin/get-model.sh
 #RUN curl ${TENSORFLOW_MODEL_URL} --output default.tar.gz
 
 #RUN tar -zxvf default.tar.gz 
