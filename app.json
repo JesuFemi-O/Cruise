@@ -1,6 +1,6 @@
 {
   "name": "Cruise",
-  "description": "deploy your tensorflow models without Software engineering skills",
+  "description": "deploy your tensorflow models without any Software engineering skills",
   "repository": "https://github.com/JesuFemi-O/Cruise",
   "stack": "container"
 }
