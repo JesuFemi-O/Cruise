@@ -7,7 +7,7 @@
     "TENSORFLOW_MODEL_URL": {
       "description": "URL to your tensorflow SavedModel (in .tar.gz format)"
     },
-    "MODEL_NAME": {
+    "MODEL_FOLDER_NAME": {
       "description": "the name of your base folder (name before .tar.gz in your url)"
     }
   }
