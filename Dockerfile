@@ -1,7 +1,7 @@
 FROM tensorflow/serving
 
 ENV MODEL_BASE_PATH /default
-# ENV MODEL_NAME img_classifier
+ENV MODEL_NAME default
 
 # COPY models/img_classifier /models/img_classifier
 
