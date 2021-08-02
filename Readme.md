@@ -12,7 +12,9 @@ on clicking the deploy button:
 
 you can use this aws bucket url for deployment:
 
+```
 https://zikkie-ml-repo.s3.amazonaws.com/img_classifier.tar.gz
+```
 
 set the MODEL_FOLDER_NAME to img_classifier
 
