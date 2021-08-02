@@ -1,6 +1,6 @@
-# Cruise :rocket:
+# Cruise :rocket
 
-Testing automatic deployment of ml models as rest apis to heroku using tensorflow serving.
+Automatic deployment of ml models as rest apis to heroku using tensorflow serving.
 
 # Try it out.
 
@@ -8,7 +8,19 @@ Testing automatic deployment of ml models as rest apis to heroku using tensorflo
 
 # How to test it
 
-here's a simple script you can run on your PC:
+on clicking the deploy button:
+
+you can use this aws bucket url for deployment:
+
+https://zikkie-ml-repo.s3.amazonaws.com/img_classifier.tar.gz
+
+set the MODEL_FOLDER_NAME to img_classifier
+
+then deploy on your heroku account.
+
+NB: the home page of the heroku app returns Not found if container is deployed successfully. (Looking to provide a UI soon!)
+
+here's a simple python script you can run on your PC:
 
 ```
 import requests
@@ -30,7 +42,7 @@ x_test = x_test.astype('float32') / 255.0
 test_img = x_test[0]
 
 YOUR_APP_NAME = "the-name-of-your-heroku-app"
-url = f'https://{YOUR_APP_NAME}.herokuapp.com/v1/models/img_classifier:predict'
+url = f'https://{YOUR_APP_NAME}.herokuapp.com/v1/models/default:predict'
 
 
 def make_prediction(instances, many=False):
@@ -54,7 +66,7 @@ while the project is still a bit limited. the end goal is to allow you effortles
 
 - [x] allow users deploy to heroku with the click of a button
 
-- [ ] allow users to provide url to a public bucket with their saved models that can be used
+- [x] allow users to provide url to a public bucket with their saved models that can be used
 
 - [ ] introduce swagger UI to make it easy to test and interact with models
 
