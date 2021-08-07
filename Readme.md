@@ -20,7 +20,23 @@ set the MODEL_FOLDER_NAME to img_classifier
 
 then deploy on your heroku account.
 
-NB: the home page of the heroku app returns Not found if container is deployed successfully. (Looking to provide a UI soon!)
+on successful deployment, click the view button on heroku, you should see the status of your model. e.g.:
+
+```
+{
+ "model_version_status": [
+  {
+   "version": "1",
+   "state": "AVAILABLE",
+   "status": {
+    "error_code": "OK",
+    "error_message": ""
+   }
+  }
+ ]
+}
+
+```
 
 here's a simple python script you can run on your PC:
 
