@@ -96,13 +96,13 @@ for p in make_prediction(test_img):
     print(np.argmax(p))
 ```
 
-# TO DO:
+# Features:
 
-while the project is still a bit limited. the end goal is to allow you effortlessly deploy your Tensorflow models to heroku and test it easily. to make that possible the plan is to:
+The end goal is to allow you effortlessly deploy your Tensorflow models to heroku and test it easily.
 
-- [x] allow users deploy to heroku with the click of a button
+- [x] allow users deploy multiple versions of their models to heroku with the click of a button
 
-- [x] allow users to provide url to a public bucket with their saved models that can be used
+- [x] allow users to easily extend their server to serve multiple Tensorflow models
 
 # References:
 
