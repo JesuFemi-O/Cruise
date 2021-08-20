@@ -78,7 +78,7 @@ x_test = x_test.astype('float32') / 255.0
 test_img = x_test[0]
 
 YOUR_APP_NAME = "the-name-of-your-heroku-app"
-url = f'https://{YOUR_APP_NAME}.herokuapp.com/v1/models/default:predict'
+url = f'https://{YOUR_APP_NAME}.herokuapp.com/v1/models/img_classifier:predict'
 
 
 def make_prediction(instances, many=False):
