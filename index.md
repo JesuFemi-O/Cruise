@@ -207,7 +207,7 @@ https://cruise-demo.herokuapp.com/v1/models/img_classifier
 
 <br/>
 
-## Serving multiple vserions of a single model with Cruise
+## Serving multiple versions of a single model with Cruise
 
 multiple version serving is as simple as saving new model versions in your model folder.
 
