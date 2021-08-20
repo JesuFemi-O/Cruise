@@ -3,7 +3,6 @@
   "description": "deploy your tensorflow models without Software engineering skills",
   "repository": "https://github.com/JesuFemi-O/Cruise",
   "stack": "container",
-  "success_url": "/v1/models/default",
   "env": {
     "TENSORFLOW_MODEL_URL": {
       "description": "URL to your tensorflow SavedModel (in .tar.gz format)"

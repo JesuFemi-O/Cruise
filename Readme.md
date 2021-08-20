@@ -6,6 +6,18 @@ Automatic deployment of tensorflow models as rest apis to heroku using tensorflo
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/JesuFemi-O/Cruise)
 
+# How to use:
+
+1. Save your Tensorflow model using Tensorflow SaveModel API
+
+2. Create a model cofiguration file in the model base path
+
+3. zip the model in tar.gz format and upload to a public aws bucket
+
+4. Click the deploy button on this repo to deploy the model
+
+Visit the [documentation](https://github.com/JesuFemi-O/Cruise/blob/main/documentation.md) for a detailed guide.
+
 # How to test it
 
 on clicking the deploy button:
@@ -20,7 +32,13 @@ set the MODEL_FOLDER_NAME to img_classifier
 
 then deploy on your heroku account.
 
-on successful deployment, click the view button on heroku, you should see the status of your model. e.g.:
+on successful deployment, navigate to:
+
+```
+https://YOUR-APP-NAME.herokuapp.com/v1/models/YOUR-MODEL-NAME
+```
+
+you should see something simiilar to:
 
 ```
 {
@@ -38,9 +56,7 @@ on successful deployment, click the view button on heroku, you should see the st
 
 ```
 
-see [documentation](https://github.com/JesuFemi-O/Cruise/blob/main/documentation.md) for detailed guide.
-
-here's a simple python script you can run on your PC:
+if you used the url above, here's a simple python script you can run on your PC to test the model:
 
 ```
 import requests
