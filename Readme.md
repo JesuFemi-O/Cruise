@@ -38,6 +38,8 @@ on successful deployment, click the view button on heroku, you should see the st
 
 ```
 
+see [documentation](https://github.com/JesuFemi-O/Cruise/blob/main/documentation.md) for detailed guide.
+
 here's a simple python script you can run on your PC:
 
 ```
