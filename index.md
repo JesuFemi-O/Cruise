@@ -171,7 +171,7 @@ simply replace 'YOUR-BUCKET-NAME' with the name of the bucket you created
 
 <br/>
 
-## Step 6: Use Cruise :rocket:
+## Step 6: Use Cruise 🚀
 
 <br/>
 
