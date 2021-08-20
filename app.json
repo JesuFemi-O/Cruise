@@ -8,8 +8,11 @@
     "TENSORFLOW_MODEL_URL": {
       "description": "URL to your tensorflow SavedModel (in .tar.gz format)"
     },
-    "MODEL_FOLDER_NAME": {
+    "MODEL_BASE_PATH": {
       "description": "the name of your base folder (name before .tar.gz in your url)"
+    },
+    "MODEL_CONFIG_FILE": {
+      "description": "the name of your model config file"
     }
   }
 }

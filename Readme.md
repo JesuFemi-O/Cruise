@@ -13,7 +13,7 @@ on clicking the deploy button:
 you can use this aws bucket url for deployment:
 
 ```
-https://zikkie-ml-repo.s3.amazonaws.com/img_classifier.tar.gz
+https://cruise-bucket.s3.amazonaws.com/tf-models.tar.gz
 ```
 
 set the MODEL_FOLDER_NAME to img_classifier
@@ -86,11 +86,7 @@ while the project is still a bit limited. the end goal is to allow you effortles
 
 - [x] allow users to provide url to a public bucket with their saved models that can be used
 
-- [ ] introduce swagger UI to make it easy to test and interact with models
+# References:
 
-# Current state of the project
-
-The project currently uses a model built with MNIST digits dataset as a working proof of concept to show that it is possible to actually deploy with just the click of a button. for more background on tensorflow servning checkout:
-
-- [Documentation](https://www.tensorflow.org/tfx/guide/serving)
+- Tensorflow Serving [Documentation](https://www.tensorflow.org/tfx/guide/serving)
 - A [Tutorial](https://neptune.ai/blog/how-to-serve-machine-learning-models-with-tensorflow-serving-and-docker) on TF-Serving with Docker
