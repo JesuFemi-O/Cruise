@@ -6,7 +6,7 @@ Cruise is the ultimate experimentation tool for data scientists and hobbyists wo
 
 # How it works
 
-## Step 1: Build your Tensorflow model:
+## Step 1: Build your Tensorflow model
 
 <br/>
 
@@ -70,7 +70,7 @@ print('Accuracy: %.3f' % acc)
 
 <br/>
 
-## Step 2: Save the model:
+## Step 2: Save the model
 
 <br/>
 
@@ -183,7 +183,7 @@ simply replace 'YOUR-BUCKET-NAME' with the name of the bucket you created
 
 - provide the models configuration file name (e.g. models.conf)
 
-- click on deploy :rocket:
+- click on deploy 🚀
 
 <br/>
 
